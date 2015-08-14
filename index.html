@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Interferention of the Light</title>
+	
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+<div class="right">
+	<canvas id="canvas" width="500px" height="500px"></canvas>
+</div>
+<div class="left">
+	<form>
+		<label for="posX1">posX1<span>(=200)</span></label><br>
+		<input type="text" id="posX1"><br>
+		<label for="posY1">posY1<span>(=250)</span></label><br>
+		<input type="text" id="posY1"><br>
+		<label for="posX2">posX2<span>(=298)</span></label><br>
+		<input type="text" id="posX2"<br>
+		<label for="posY2">posY2<span>(=250)</span></label><br>
+		<input type="text" id="posY2"><br>
+		<label for="wave">Wave length<span>(=17.00)</span></label><br>
+		<input type="text" id="wave">
+
+		<input type="button" value="Render" id="render" onClick = 'draw();'>
+	</form>
+</div>
+
+</body>
+</html>

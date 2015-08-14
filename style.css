@@ -1,0 +1,35 @@
+body{
+	background-color: 'beige';
+	width: 800px;
+}
+
+canvas {
+	border: 1px solid gray;
+}
+
+.right{		
+	float: left;
+	position: relative;		
+}
+.left{
+	float: right;	
+	width: 200px;	
+}
+
+form{
+	background-color: #568856;	
+	font-size: 16px;	
+	padding: 2px 3px;
+}
+form label{
+	font-weight: bold;
+}
+form label span{
+	color: #222;
+	font-size: 12px;
+}
+form input{
+	margin-bottom: 7px;
+}
+
+
